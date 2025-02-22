@@ -1,0 +1,86 @@
+.logoside{
+    /* display: flex; */
+    position: relative;
+    left:0px;
+    margin-top:20px;
+    top: 40px;
+}
+
+.imagelogo{
+    height: 90px;
+    width: 90px;
+    margin-left: 0%;
+    position: relative;
+    left: -5px;
+    top: -60px;
+
+}
+.logo-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 0px;
+    position: absolute;
+    left: -10px;
+    top: 30px;
+    color: black;
+    
+}
+.sidebar {
+    
+    margin: 5px;
+    margin-left: 0px;
+    width: 60px;
+    background-color: rgba(255, 255, 255, 0.788);
+    color: #fff;
+    transition: width 0.3s;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    overflow: hidden; /* Prevent overflow */
+    position: fixed;
+    top: 0px;
+    border-radius: 5px;
+  }
+  
+  .sidebar.expanded {
+    width: 150px; /* Width when expanded */
+    .imagelogo{
+        left: 7px;
+        transition: 0.3s;
+    }
+
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .sidebar li {
+
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  .sidebar :link{
+    text-decoration: none;
+  }
+  
+  .sidebar li:hover {
+    background-color: white;
+    border-radius: 10px;
+    
+}
+  
+  .sidebar li span a {
+    margin-left: 10px; 
+    color: #444;/* Space between icon and text */
+  }

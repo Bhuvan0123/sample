@@ -1,0 +1,81 @@
+.contact-container {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.822);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p, address {
+    font-size: 20px;
+}
+ul{
+    font-size: 20px;
+
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+textarea{
+    
+    margin-right: 10px;
+    width: 350px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+input {
+    
+    margin-right: 10px;
+    width: 250px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#formsubmit {
+    padding: 10px 20px;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(6, 150, 6);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#formsubmit:hover {
+    background-color: green;
+}

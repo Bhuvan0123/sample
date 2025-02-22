@@ -1,0 +1,26 @@
+#order-button{
+    font-size: 18px;
+    width: 150px;
+    height: 55px;
+    background-color: rgba(236, 236, 236, 0.685);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.order-tabs{
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(236, 236, 236, 0.685);
+    padding :10px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+}
+#order-button.active{
+    background-color: rgb(117, 201, 124);
+}
+.order-container{
+    margin-top: 20px;
+}
